@@ -188,3 +188,32 @@ function processFruit(fruit) {
 }
 processFruit("banana");
 
+
+// usimg a loop
+let edibles = ["Mangoes", "bananas", "oranges", "apples" ];
+
+for(i = 0; i < edibles.length; i++ ){
+
+    switch(edibles[i]){
+
+        case "Mangoes":
+            console.log("This is a mango");
+            break;
+
+        case "bananas":
+            console.log("This are banas");
+            break;
+
+        case "oranges":
+            console.log("This is are oranges");
+             break;
+
+        case "apples":
+            console.log("This are apples");
+            break;
+
+        default:
+            console.log("Fruit not specified")
+    }
+}
+
